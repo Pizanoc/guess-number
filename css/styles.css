@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #222;
+}
+
+header {
+    width: 70%;
+    margin: 30px auto 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#main {
+    width: 70%;
+    margin: 0 auto 40px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 42px;
+    color: #1f3c88;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    width: 80px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1f3c88;
+    color: white;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: #2f5cc0;
+}
+
+#attemptsLeft {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 28px;
+}
+
+#guesses {
+    font-weight: bold;
+    color: #1f3c88;
+}
+
+#main div {
+    margin-top: 12px;
+}
